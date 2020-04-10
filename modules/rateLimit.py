@@ -17,7 +17,7 @@ class SlidingWindowRateLimit:
     def validate_request_rate_limit(self, user_id):
         """
         Check if the incoming request has crossed the limit
-        :return: True or False
+        :return: 429 or 200
         :rtype: Bool
         """
         try:
