@@ -1,0 +1,12 @@
+# Environments
+venv/
+
+# Pyre type checker
+.idea/
+
+# files
+*.log
+.pyc
+**/__pycache__/
+.DS_Store
+
