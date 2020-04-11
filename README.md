@@ -9,6 +9,5 @@ A function that validates whether the request has crossed the rate limit or not 
 
 ## Run Test cases
 ```
-cd SlidingWindowRateLimiting 
 python -m unittest test/rateLimit_test.py
 ```
